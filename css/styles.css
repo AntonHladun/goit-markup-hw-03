@@ -26,9 +26,10 @@ img {
   display: block;
 }
 .container {
-  display: flex;
+  display: inline-block;
   align-items: center;
   width: 1158px;
+  margin: 0;
   padding: 0 15px 0 15px;
 }
 /*Navigation*/
