@@ -26,11 +26,11 @@ img {
   display: block;
 }
 .container {
-  max-width: 1158px;
   width: 100%;
-  margin: 0 auto;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 /*Navigation*/
 .logo {
@@ -70,7 +70,8 @@ img {
   margin-right: 40px;
 }
 .address-link:last-child {
-  margin-right: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address {
   margin-left: auto;
