@@ -300,6 +300,7 @@ img {
 }
 .filter-item:last-child {
   margin-right: 0;
+  width: calc((100% - 48px) / 3);
 }
 
 .filter-button:hover {
