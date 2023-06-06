@@ -44,6 +44,12 @@ img {
   margin-right: 76px;
   padding: 24px 0;
 }
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-logo {
   color: var(--brand-color);
 }
@@ -53,6 +59,12 @@ img {
 .nav.link {
   font-weight: 500;
   color: var(--brand-color);
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav.link:hover {
   color: #404bbf;
@@ -169,6 +181,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 .body-text {
   font-size: 16px;
