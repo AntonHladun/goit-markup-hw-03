@@ -42,7 +42,8 @@ img {
   text-transform: uppercase;
   color: var(--accent-color);
   margin-right: 76px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-nav-list {
   display: flex;
@@ -59,7 +60,6 @@ img {
 .nav.link {
   font-weight: 500;
   color: var(--brand-color);
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -184,9 +184,11 @@ img {
   text-align: center;
 }
 .body-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--text-color);
 }
 .company-focus {
