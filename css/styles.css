@@ -26,7 +26,8 @@ img {
   display: block;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -41,6 +42,7 @@ img {
   text-transform: uppercase;
   color: var(--accent-color);
   margin-right: 76px;
+  padding: 24px 0;
 }
 .nav-logo {
   color: var(--brand-color);
@@ -287,6 +289,7 @@ img {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 .portfolio-content {
   padding-top: 96px;
