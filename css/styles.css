@@ -28,9 +28,8 @@ img {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /*Navigation*/
 .logo {
@@ -70,8 +69,7 @@ img {
   margin-right: 40px;
 }
 .address-link:last-child {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-right: 0;
 }
 .address {
   margin-left: auto;
