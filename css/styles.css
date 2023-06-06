@@ -26,9 +26,11 @@ img {
   display: block;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /*Navigation*/
 .logo {
@@ -97,7 +99,8 @@ img {
 }
 .nav-item {
   margin-right: 40px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-item:last-child {
@@ -296,11 +299,9 @@ img {
 }
 .filter-item {
   margin-right: 24px;
-  width: calc((100% - 48px) / 3);
 }
 .filter-item:last-child {
   margin-right: 0;
-  width: calc((100% - 48px) / 3);
 }
 
 .filter-button:hover {
@@ -315,8 +316,6 @@ img {
 }
 .services {
   display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
