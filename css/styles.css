@@ -321,7 +321,7 @@ img {
   row-gap: 48px;
 }
 .services-link {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .services-link:nth-last-child(3n) {
   column-gap: 0;
