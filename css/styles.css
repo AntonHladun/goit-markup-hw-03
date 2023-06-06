@@ -26,11 +26,9 @@ img {
   display: block;
 }
 .container {
-  display: inline-block;
-  align-items: center;
   width: 1158px;
-  margin: 0;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 /*Navigation*/
 .logo {
